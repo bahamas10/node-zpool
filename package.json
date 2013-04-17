@@ -1,0 +1,30 @@
+{
+  "name": "zpool",
+  "description": "Interface to ZFS zpools",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/bahamas10/node-zpool.git",
+    "type": "git"
+  },
+  "main": "./zpool.js",
+  "dependencies": {
+    "exec": "~0.0.6",
+    "strsplit": "~1.0.0"
+  },
+  "scripts": {
+    "test": "for f in test/*.js; do echo \"$f\"; node \"$f\" || exit 1; done; echo Passed; exit 0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "illumos",
+    "solaris",
+    "smartos",
+    "zfs",
+    "zpool"
+  ]
+}
